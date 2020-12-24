@@ -4,7 +4,8 @@
   "description": "its simple curd opprations",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon app.js",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,8 @@
   "homepage": "https://github.com/ShreyasBoss/Book-Directory#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "expresss": "0.0.0",
-    "mongoose": "^5.11.8"
+    "express": "^4.17.1",
+    "mongoose": "^5.11.8",
+    "nodemon": "^2.0.6"
   }
 }
